@@ -37,7 +37,7 @@ PrepareTweets <- function(data) {
   data
 }
 
-SimulateTweets <- function(data, tweet.length, chain.order) {
+SimulateTweet <- function(data, tweet.length, chain.order) {
     # Samples a new tweet from the supplied tweets assuming a Markov Chain model.
     #
     # Args:
