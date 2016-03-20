@@ -1,3 +1,5 @@
+#Sample a new tweet assuming a Markov chain model.
+
 source("markov_chain.R")
 
 PrepareTweets <- function(data) {

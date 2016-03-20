@@ -1,3 +1,5 @@
+#Code for sampling a new sequence from observed sequential data using a n-th order Markov chain.
+
 InitializeChain <- function(data, order) {
     # Initializes a Markov Chain of the argument order from the given data.
     #
